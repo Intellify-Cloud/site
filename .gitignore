@@ -1,0 +1,16 @@
+_site
+_site/*
+_theme_packages/*
+.rbenv-version
+.rvmrc
+.jekyll-cache
+
+.vscode
+package-lock.json
+
+
+node_modules
+npm-debug.log*
+
+!.gitkeep
+
