@@ -1,0 +1,15 @@
+url    : "http://www.intellify.co.za"
+baseurl: ""
+
+title      : Intellify
+email      : sales@intellify.co.za
+description: "Go online. Grow online."
+author     : Eben Roux / Pieter Oosthuizen
+
+analytics:
+  google: #Google Analytics tracking code here
+
+collections:
+  portfolio:
+
+markdown: kramdown
