@@ -4,8 +4,8 @@
   "description": "Get online. Grow online. Intellify your business to reach new heights.",
   "scripts": {
     "bundle": "webpack",
-    "serve": "jekyll serve",
-    "trace": "jekyll serve --trace"
+    "serve": "jekyll serve --baseurl ''",
+    "trace": "jekyll serve --trace --baseurl ''"
   },
   "author": "Intellify-Cloud",
   "license": "ISC",
