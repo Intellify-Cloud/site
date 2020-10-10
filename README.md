@@ -1,3 +1,3 @@
 # Intellify
 
-This is the main Intelly.co.za site repository.
+This is the main [Intellify](https://intellify-cloud.github.io/site/) site repository.
