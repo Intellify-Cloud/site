@@ -1,37 +1,35 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Welcome to the Web!
+    text: Go online. Grow online.
     button: Tell Me More
     buttonlink: "#services"
 
 services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "How we can help you"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart
+      - title: "&micro;-sites"
+        desc: "A micro-site is one that establishes a web-presence that helps your customers find you.  Typically a single page such as this one."
+        icon: fas fa-cloud
       - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Your &micro;-site will render correctly not only on desktop-sized screen but also on mobile-sized screens."
         icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Additional"
+        desc: "If you require additional services or functionality simply get in touch and we can have a chat."
+        icon: fas fa-shopping-cart
 
 portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Some of our work"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
     
 
 timeline:
     title: "About" 
     text: "Lorem ipsum timeline"
     section: timeline
-    # left is the default
-    #start_align: "left"
     events:
       - title: "Our Humble Beginnings"
         year: "2009-2011"
@@ -81,21 +79,21 @@ clients:
         logo: assets/img/clients/creative-market.jpg
     
 team:
-    title: "OUR AMAZING TEAM"
+    title: "OUR TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Eben Roux"
+        role: "Full-Stack Developer"
+        image: assets/img/team/eben.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://stackoverflow.com/users/324157/eben-roux
+            icon: fab fa-stack-overflow
+          - url: https://www.linkedin.com/in/eben-roux-854923135/
             icon: fab fa-linkedin-in
+          - url: https://twitter.com/EbenRoux2
+            icon: fab fa-twitter
       - name: "Larry Parker"
         role: "Lead Marketer"
         image: assets/img/team/2.jpg
