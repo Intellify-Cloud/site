@@ -1,0 +1,10 @@
+.card {
+    @include heading-font;
+    font-weight: 500;
+  }
+  
+.card-foorter {
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 30px;
+  }

@@ -115,8 +115,8 @@ clients:
     
 team:
     title: "OUR TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    text: "No long contracts. No aggressive sales tactics. Just great work. For the right money."
+    subtext: 
     section: team
     people:
       - name: "Eben Roux"
@@ -129,25 +129,15 @@ team:
             icon: fab fa-linkedin-in
           - url: https://twitter.com/EbenRoux2
             icon: fab fa-twitter
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+      - name: "Pieter Oosthuizen"
+        role: "Marketing, Design and Operations"
+        image: assets/img/team/pieter-oosthuizen-intellify.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: tel:082 957 9336
+            icon: fas fa-phone
+          - url: mailto:pieter@intellify.co.za?subject=Website Enquiry
+            icon: fas fa-envelope
+          - url: https://www.linkedin.com/in/pieter-oosthuizen-938b894/
             icon: fab fa-linkedin-in
           
 contact:
@@ -160,7 +150,7 @@ footer:
     social:
       # - url: https://twitter.com
       #   icon: "fab fa-twitter"  
-      - url: https://facebook.com
+      - url: https://www.facebook.com/Intellify-103239274884305
         icon: "fab fa-facebook-f"
       # - url: https://linkedin.com
       #   icon: "fab fa-linkedin-in"
