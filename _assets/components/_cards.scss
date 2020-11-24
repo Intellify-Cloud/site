@@ -1,10 +1,19 @@
 .card {
     @include heading-font;
     font-weight: 500;
+    border-radius: 5px;
   }
   
-.card-foorter {
+.card-body {
+    background-color: #cae1fa;
+}
+
+.card-text {
+    color-adjust: #fff;
+    font-weight: bolder;
+}
+
+.card-footer {
     font-size: 18px;
     padding: 20px 40px;
-    border-radius: 30px;
-  }
+}
