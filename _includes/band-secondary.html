@@ -1,0 +1,12 @@
+<div class={{ '"py-5 container-fluid ' | append: class | append: '"'}}>
+    <div class="row">
+        <!-- <div class="col-md-2 services-section"></div> -->
+        <div class="col-md-6 ">
+            {{ include.left | markdownify }}
+        </div>
+        <div class="col-md-6 services-section text-left">
+            {{ include.right | markdownify }}
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>

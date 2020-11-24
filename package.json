@@ -28,6 +28,5 @@
     "sass-loader": "^9.0.3",
     "jquery.easing": "^1.4.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

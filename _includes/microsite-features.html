@@ -1,18 +1,18 @@
-<!-- Services -->
-<section class="page-section" id="{{ site.data.sitetext.services.section | default: "services" }}">
+<!-- Microsite Features -->
+<section class="page-section" id="{{ site.data.sitetext.microsite-features.section | default: "microsite-features" }}">
   <div class="container">
 
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.services.title | default: "Services We Offer" }}</h2>
-        {% if site.data.sitetext.services.text %}
-    <h3 class="section-subheading text-muted">{{ site.data.sitetext.services.text }}</h3>
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.microsite-features.title | default: "Microsites Include" }}</h2>
+        {% if site.data.sitetext.microsite-features.text %}
+    <h3 class="section-subheading text-muted">{{ site.data.sitetext.microsite-features.text }}</h3>
     {% endif %}
       </div>
     </div>
   
     <div class="card-deck services">
-  {% for service in site.data.sitetext.services.list %}
+  {% for service in site.data.sitetext.microsite-features.list %}
       <div class="card">
         <div class="card-body text-center">
           <span class="fa-stack fa-4x">
@@ -35,4 +35,4 @@
   
   </div>
 </section>
-<!-- End Services -->
+<!-- End Microsite Features -->

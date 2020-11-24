@@ -1,23 +1,58 @@
 header:
-    title: Welcome to the Web!
+    title: Reach more customers!
     text: Go online. Grow online.
     button: Tell Me More
     buttonlink: "#services"
 
 services:
-    title: "Services"
-    text: "How we can help you"
+    title: "We Offer"
+    text: "We are passionate about helping small and medium sized service-based businesses grow using proven online marketing strategies. Below are the services specialize in, what can do to help you today?"
     section: services
     list:
-      - title: "&micro;-sites"
-        desc: "A micro-site is one that establishes a web-presence that helps your customers find you.  Typically a single page such as this one."
+      - title: "Portfolio Websites"
+        desc: "A portfolio site or micro-site ensures that your business establishes a web-presence beyond social that helps your customers find you."
         icon: fas fa-cloud
+        link: 
+          url: /portfolio-websites
+          text: "Find Out More"
+      # - title: "Domain Registration"
+      #   desc: "If you require additional services or functionality simply get in touch and we can have a chat."
+      #   icon: fas fa-shopping-cart
+      #   link: 
+      #     url: mailto:support@intellify.co.za?subject=Enquiry  from evo UP website
+      #     text: "Find Out More"   
+      # - title: "Social Media"
+      #   desc: "Start building your database & generate 100’s of leads."
+      #   icon: fas fa-share
+      #   link: 
+      #     url: mailto:support@intellify.co.za?subject=Enquiry  from evo UP website
+      #     text: "Find Out More"
+
+microsite-features:
+    title: "All Portfolio Websites Include"
+    text: ""
+    section: microsite-features-cards
+    list:
+      - title: "Domain Registration"
+        desc: "We register your personalised domain name to start building your online presence. Get your dream company name before someone else does."
+        icon: fas fa-id-badge
+        link: 
+          url: mailto:support@intellify.co.za?subject=Enquiry From Intellify Website
+          text: "Find Out More"
       - title: "Responsive Design"
         desc: "Your &micro;-site will render correctly not only on desktop-sized screen but also on mobile-sized screens."
-        icon: fas fa-laptop       
-      - title: "Additional"
-        desc: "If you require additional services or functionality simply get in touch and we can have a chat."
-        icon: fas fa-shopping-cart
+        icon: fas fa-mobile-alt
+        link: 
+          url: mailto:support@intellify.co.za?subject=Enquiry From Intellify Website
+          text: "Find Out More"       
+         
+      - title: "Performance Optimisation"
+        desc: "Nobody likes a slow site, and neither does Google. Our sites are optimised for speed to improve SEO, usability and drive conversion."
+        icon: fas fa-tachometer-alt
+        link: 
+          url: mailto:support@intellify.co.za?subject=Enquiry From Intellify Website
+          text: "Find Out More"
+          
 
 portfolio:
     title: "Portfolio"
@@ -123,16 +158,16 @@ contact:
 footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"  
+      # - url: https://twitter.com
+      #   icon: "fab fa-twitter"  
       - url: https://facebook.com
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      # - url: https://linkedin.com
+      #   icon: "fab fa-linkedin-in"
+      # - url: https://github.com/raviriley/agency-jekyll-theme
+      #   icon: "fab fa-github"
+      # - url: https://instagram.com
+      #   icon: "fab fa-instagram"
 
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}

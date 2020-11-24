@@ -1,9 +1,9 @@
-url    : "https://intellify-cloud.github.io/site/"
+url    : "http://127.0.0.1:4000"
 baseurl: ""
 
 title      : Intellify
-email      : sales@intellify.co.za
-description: "Go online. Grow online."
+email      : support@intellify.co.za
+description: "Go online, grow online."
 author     : Eben Roux / Pieter Oosthuizen
 
 analytics:
@@ -13,3 +13,6 @@ collections:
   portfolio:
 
 markdown: kramdown
+
+logo:
+  path: /assets/img/logo/intellify-logo-white.png

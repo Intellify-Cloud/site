@@ -2,14 +2,8 @@ nav:
   - title: "Services"
     section: services
 
-  - title: "Portfolio"
-    section: portfolio
-    
-  - title: "About"
-    section: timeline
+  - title: "Portfolio Websites"
+    url: /portfolio-websites
 
-  - title: "Team"
-    section: team
-
-  - title: "Contact"
-    section: contact
+  - title: "Contact Us"
+    url: /contact
