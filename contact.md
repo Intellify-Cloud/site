@@ -1,11 +1,17 @@
 ---
 layout: page
-title: evo Up
+title: Contact Us
 background: grey
 ---
+
+
 <div class="col-lg-12 text-center">
 	<h1 class="section-heading text-uppercase">Contact The Team At Intellify</h1>
 </div>
+
+{% capture content_left %}
+
+# Get in Touch
 
 <div class="container contact-us">
   <div class="row">
@@ -15,7 +21,8 @@ background: grey
 		<p>Fax: 0865 117 076</p> -->
 		<!-- <p>Cell: <a href="tel:+27829579336">082 957-9336</a></p> -->
 		<p>E-mail: <a href="mailto:support@intellify.co.za?subject=Enquiry from Intellify Website">support@intellify.co.za</a></p>
-        <p>Johannesburg & Durban</p>
+   <br>
+    <span>Johannesburg & Durban</span>
     </div>
 
     <div class="col-md">
@@ -25,8 +32,17 @@ background: grey
   </div>
 </div>
 
-<!-- Gavin Young is a franchisee in oobalink Western Cape, and the owner of oobalink Boland & Cape Winelands. "I graduated from Stellenbosch University in 1985 and since then have spent most of my working life in banking at a Regional and Head Office level. I left banking in mid 2006 and started my own mortgage origination business.
-My focus is delivering service to agents and bond applicants by applying all my skill and knowledge of banking to make the deal work. I have recruited a fabulous team who share the same values." -->
+{% endcapture %}
+
+{% capture content_right %}
+
+## Our Marketing Mission
+
+We help businesses reach new customers and improve results so get in touch today to take your digital marketing to the next level.
+
+{% endcapture %}
+
+{%- include band-secondary.html left=content_left right=content_right -%}
 
 {% include team.html %}
 

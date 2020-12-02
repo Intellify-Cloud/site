@@ -46,7 +46,7 @@ We understand that building a website can be overwhelming and a huge capital exp
 
 {% capture content_central %}
 
-### High performing websites combine expert design, technical skills, copywriting and SEO to rank highly in search engines and convert clicks to customers
+<p class="blockquote text-center">High performing websites combine expert design, technical skills, copywriting and SEO to rank highly in search engines and convert clicks to customers.</p>
 
 {% endcapture %}
 

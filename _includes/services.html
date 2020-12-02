@@ -25,7 +25,7 @@
           <h4 class="card-title service-heading">{{ service.title | markdownify }}</h4>
           {% if service.desc %}
 
-          <div class="card-text">{{ service.desc | markdownify }}</div>
+          <div class="text-muted">{{ service.desc | markdownify }}</div>
           {% endif %}
 
         </div>
@@ -33,7 +33,7 @@
         {% if service.link %}
 
         <div class="card-footer text-center">
-          <a href="{{ service.link.url }}" class="btn btn-primary" role="button">{{ service.link.text }}</a>
+          <a href="{{ service.link.url }}" class="btn btn-secondary" role="button">{{ service.link.text }}</a>
         </div>
         {% endif %}
       </div>

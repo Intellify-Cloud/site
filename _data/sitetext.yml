@@ -29,7 +29,7 @@ services:
       #     text: "Find Out More"
 
 microsite-features:
-    title: "All Portfolio Websites Include"
+    title: "Included With every Portfolio Website"
     text: ""
     section: microsite-features-cards
     list:
