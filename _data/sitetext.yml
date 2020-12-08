@@ -6,11 +6,11 @@ header:
 
 services:
     title: "We Offer"
-    text: "We are passionate about helping small and medium sized service-based businesses grow using proven online marketing strategies. Below are the services specialize in, what can do to help you today?"
+    text: "We are passionate about helping small and medium sized service-based businesses grow using proven online marketing strategies. Below are the services we specialize in, what can do to help you today?"
     section: services
     list:
       - title: "Portfolio Websites"
-        desc: "A portfolio site or micro-site ensures that your business establishes a web-presence beyond social that helps your customers find you."
+        desc: "A portfolio site or micro-site ensures that your business establishes a web-presence beyond social media that makes sure that customers find you."
         icon: fas fa-cloud
         link: 
           url: /portfolio-websites
@@ -40,7 +40,7 @@ microsite-features:
           url: mailto:support@intellify.co.za?subject=Enquiry From Intellify Website
           text: "Find Out More"
       - title: "Responsive Design"
-        desc: "Your &micro;-site will render correctly not only on desktop-sized screen but also on mobile-sized screens."
+        desc: "Your micro-site will render correctly not only on desktop-sized screen but also on mobile-sized screens."
         icon: fas fa-mobile-alt
         link: 
           url: mailto:support@intellify.co.za?subject=Enquiry From Intellify Website
