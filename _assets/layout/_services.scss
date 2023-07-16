@@ -1,5 +1,31 @@
-// Styling for the services section
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
+/* Styling for the services section */
+
+/* Add this class for the services wrapper */
+.services-wrapper {
+  max-width: 750px;
+  margin: 0 auto;
 }
+
+/* Responsive behavior for common breakpoints */
+@media (max-width: 576px) {
+  .services-wrapper {
+    max-width: 100%;
+    padding: 0 15px; /* Optional: Add some padding for better mobile display */
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .services-wrapper {
+    max-width: 100%;
+    padding: 0 30px; /* Optional: Add some padding for better mobile display */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .services-wrapper {
+    max-width: 100%;
+    padding: 0 45px; /* Optional: Add some padding for better mobile display */
+  }
+}
+
+/* Add more media queries as needed for other breakpoints */

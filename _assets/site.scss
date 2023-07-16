@@ -7,7 +7,7 @@ $header-image: "./img/header.jpg";
 $contact-image: "./img/contact.png";
 
 $primary: #fed136 !default;
-$white: #fff !default;
+$white: #F8F8F8 !default;
 $black: #000 !default;
 $body-color:$gray-900;
 $input-height:calc(#{$input-height-inner} + #{$input-height-border});
@@ -46,6 +46,6 @@ $enable-gradients:false;
 body {
     overflow-x: hidden;
     font-family: "Montserrat", "Roboto Slab","Roboto Condensed",sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #333;
+    color: #222222;
     webkit-tap-highlight-color: $primary;
 }

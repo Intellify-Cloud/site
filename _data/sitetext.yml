@@ -5,8 +5,16 @@ header:
     buttonlink: "#services"
 
 services:
-    title: "We Offer"
-    text: "We are passionate about helping small and medium sized service-based businesses grow using proven online marketing strategies. Below are the services we specialize in, what can do to help you today?"
+    title: "Welcome"
+    text: "
+    Welcome to Intellify! We understand that starting a website can be overwhelming, from setting up a domain to managing the high capital expenses associated with it. That's where we step in to make the process easy and hassle-free.
+    <br><br>
+    Our primary mission is to empower small and medium-sized service-based businesses by providing a seamless introduction to the online world. We believe that building trust and a strong online presence are crucial for fostering growth and success.
+    <br><br>
+    With our services, we cater to your specific needs. Set yourself apart using our affordable subscription model, which eliminates the heavy upfront costs of website setup and maintenance.
+    <br><br>
+    Let Intellify help you on this exciting journey. Together, we'll unlock your business's full potential and start elevating your brand matter. Unlock the power of an online profile now!
+    "
     section: services
     list:
       - title: "Portfolio Websites"
@@ -34,7 +42,9 @@ microsite-features:
     section: microsite-features-cards
     list:
       - title: "Domain Registration"
-        desc: "We register your personalised domain name to start building your online presence. Get your dream company name before someone else does."
+        desc: "We register your personalised domain name to start building your online presence. 
+        <br><br>
+        Get your dream company name before someone else does."
         icon: fas fa-id-badge
         link: 
           url: mailto:support@intellify.co.za?subject=Enquiry From Intellify Website
