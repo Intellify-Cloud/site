@@ -106,21 +106,22 @@ about:
     section: about
 
 clients:
+    title: "Some of our Websites"
     section: clients
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: "yes" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
+      - title: ""
+        url: https://www.oobalink-ns.co.za/
         logo: assets/img/clients/envato.jpg
       - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        url: https://www.homeloansandbonds.co.za/
         logo: assets/img/clients/designmodo.jpg
       - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        url: https://www.evochanellemacey.co.za/
         logo: assets/img/clients/themeforest.jpg
       - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        url: https://www.apexcoaching.co.za/
         logo: assets/img/clients/creative-market.jpg
     
 team:
